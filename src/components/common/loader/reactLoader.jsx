@@ -1,8 +1,8 @@
-import Loader from 'react-loader-spinner';
+import {LineWave} from 'react-loader-spinner';
 
 export const ReactLoader = () => {
   return (
-    <Loader
+    <LineWave
       type="TailSpin"
       color="#00000059"
       height={70}

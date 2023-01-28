@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import Header from '../header/mainHeader';
+import {Header} from '../header/mainHeader';
 
 export default function NotFound() {
   useEffect(() => {

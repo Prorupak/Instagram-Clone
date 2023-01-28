@@ -18,7 +18,7 @@ import {DASHBOARD, SIGN_UP } from '../../constants';
 
     try {
       await firebase?.auth().signInWithEmailAndPassword(emailAddress, password);
-    //  navigate(DASHBOARD);
+     navigate(DASHBOARD);
     } catch (error) {
       console.log(error)
       setEmailAddress('');
