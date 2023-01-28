@@ -9,7 +9,6 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@welldone-software/why-did-you-render": "^6.0.5",
     "date-fns": "^2.16.1",
     "firebase": "^8.2.5",
     "prop-types": "^15.7.2",
