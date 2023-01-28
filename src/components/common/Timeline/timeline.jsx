@@ -25,8 +25,6 @@ export const Timeline = () => {
       ) : photos? (
        photos.map((content) => <Post key={content.docId} content={content} />)          
       ) : null}
-
-      
     </div>
   );
 }
